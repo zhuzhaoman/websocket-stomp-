@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>springboot_netty</artifactId>
+    <artifactId>websocket(stomp)</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot_netty</name>
+    <name>websocket(stomp)</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -37,16 +37,17 @@
         </dependency>
 
         <dependency>
-            <groupId>org.yeauty</groupId>
-            <artifactId>netty-websocket-spring-boot-starter</artifactId>
-            <version>0.9.5</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
         </dependency>
+
 
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <optional>true</optional>
+            <version>1.16.10</version>
         </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
